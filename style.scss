@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// Importações //
+
+@import './partials/_colors.scss';
+@import './partials/_header.scss';
+@import './partials/_layout.scss';
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Lavishly+Yours&family=Major+Mono+Display&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Playwrite+AU+SA:wght@100..400&family=Quicksand:wght@300..700&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+html{
+    font-family: 'Roboto Flex', sans-serif;
+    background-color: $black-color;
+    max-width: max-content;
+    width: 100%;
+    height: 100vh;
+    color: white;
+    overflow-x: hidden;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+button{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    display: inline-block;
+}
