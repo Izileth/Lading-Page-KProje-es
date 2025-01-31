@@ -276,17 +276,19 @@
         }
         div:nth-child(2){
             flex-direction: row-reverse;
-        }
-        img{
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            transition: transform 0.3s ease;
-            overflow: hidden;
-            &:hover{
-                transform: scale(1.01);
+            .midia{
+                width: 85%;
+                height: max-content;
+                overflow: hidden;
+                transition: background-size 0.3s ease;
+                img{
+                    width:100%;
+                    height: 100%;
+                    object-fit: cover;
+                }    
             }
         }
+        
         .gallery-item{
             height: 40vh;
             width: 130%;
@@ -300,8 +302,9 @@
             margin-bottom: 1em;
 
             .midia{
-                width: 100%;
-                height: 400px;
+                width: auto;
+                height: max-content;
+                overflow: hidden;
                 transition: background-size 0.3s ease;
                 img{
                     width: 100%;
@@ -356,7 +359,6 @@
 }
 
 // Responsividade //
-
 @media screen and (max-width: 1180px){
     .gallery {
         flex-direction: column;
@@ -559,7 +561,7 @@
             }
 
             .highlights-object{
-                height: auto;
+                height: max-content;
                 width: 100%;
                 display: flex;
                 flex-direction: column;
@@ -675,6 +677,7 @@
     .highlights{
         flex-direction: column;
         align-items: center;
+        height: max-content;
         margin-top: 2.4rem;
         padding: 1.6rem;
         .highlights-header{
@@ -1087,7 +1090,7 @@
     }    
     .testimonials-content{
         width:100%;
-        height: 100vh;
+        height: max-content;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(3, 1fr);
@@ -1442,6 +1445,25 @@
 }
 
 //Responsividade // 
+
+@media screen and (max-width: 1398px){
+    .faq{
+        margin-block: 0.8rem;
+        .faq-header{
+            width: 100%;
+            height: max-content;
+            gap: 0.8rem;
+            h2{
+                width: 90%;
+                font-size: 2.2em;
+            }
+            p{
+                width: 90%;
+                font-size: 1.2em;
+            }
+        }
+    }
+}
 @media screen and (max-width: 768px){
     .faq{
         width: 100%;
