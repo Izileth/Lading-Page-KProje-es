@@ -367,14 +367,13 @@ header .menu .menu-btn a:hover {
   margin-top: 1em;
   background-color: #0018ce;
   color: white;
-  padding: 1em 2.8em;
+  padding: 1em 2rem;
   margin-block: 1.8rem;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   letter-spacing: 0.2rem;
   transition: background-color 0.3s ease, box-shadow 0.3s ease;
-  z-index: -10;
 }
 .hero .hero-btn:hover {
   background-color: #f8f8f8;
@@ -552,7 +551,7 @@ header .menu .menu-btn a:hover {
   flex-direction: row-reverse;
 }
 .gallery .gallery-content div:nth-child(2) .midia {
-  width: 85%;
+  width: 80%;
   height: -moz-max-content;
   height: max-content;
   overflow: hidden;
