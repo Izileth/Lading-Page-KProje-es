@@ -9,6 +9,7 @@
 @import './partials/_colors.scss';
 @import './partials/_header.scss';
 @import './partials/_layout.scss';
+@import './partials/grid';
 @import url('https://fonts.googleapis.com/css2?family=Hind+Guntur:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 
@@ -76,6 +77,6 @@ p{
 section{
     height: 100%;
     width: 100vw;
-    height: 100vh;
-    background: var(--neutral-dark);
+    height: auto;
+    background: #000;
 }
