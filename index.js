@@ -1,14 +1,4 @@
-// Selecionando os elementos
-const menuHamburger = document.querySelector('.menu-hamburger');
-const menuBar = document.querySelector('.menu-bar');
 
-// Adicionando o listener de click para alternar a classe 'active'
-menuHamburger.addEventListener('click', () => {
-    menuHamburger.classList.toggle('active');  // Rotaciona o ícone da hamburger
-    menuBar.classList.toggle('active');        // Exibe ou esconde o menu
-});
-
-// FAQ 
 document.addEventListener('DOMContentLoaded', function () {
     const faqButtons = document.querySelectorAll('.faq-btn');
 

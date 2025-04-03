@@ -1,16 +1,36 @@
-// Ajutes nas Cores //
+:root {
+    /* Cores principais */
+    --primary-color: #14213D; /* Azul Marinho - Base */
+    --secondary-color: #C99D66; /* Dourado Suave - Luxo */
+    --accent-color: #6A0DAD; /* Roxo Vibrante - Modernidade */
+    --highlight-color: #FF007F; /* Rosa Neon - Energia */
 
-$black-color: #000000;
-$white-color: #f8f8f8;
-$gray-color: #1a1a1a;
+    /* Cores neutras */
+    --neutral-dark: #3A3A3A; /* Cinza Chumbo - Sofisticação */
+    --neutral-light: #F7F7F7; /* Branco Gelo - Leveza */
 
-// Ajures nas Cores Especias //
+    /* Gradientes */
+    --background-gradient: linear-gradient(135deg, #121212, #3A3A3A);
+    --highlight-gradient: linear-gradient(45deg, #6A0DAD, #FF007F);
+    --luxury-gradient: linear-gradient(90deg, #C99D66, #14213D);
+    --light-gradient: linear-gradient(180deg, #F7F7F7, #EAE7DC);
 
-$blue-color: #0018ce;
-$purple-color: #b900e7;
-$orange-color: #ff8c00;
-$red-color: #e50000;
+    /* Backgrounds */
+    --background: #f0f0f0;
+    --background-dark: #121212;
+    --background-light: #f9f9f9;
 
-//Ajures nas Cores Nulas //
+    /* Extras */
+    --border-radius: 8px;
+    --box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 
-$null-color: #00eafb;
+    /*Fontes*/
+
+    --font-lg: 5.2rem;
+    --font-md: 4.4rem;
+    --font-sm: 1.6rem;
+    --font-smd: 1.2rem;
+    --font-smm: 0.8rem
+    /*Transições*/
+    --transition: all 0.25s ease-in-out;
+}
